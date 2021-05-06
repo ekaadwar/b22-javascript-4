@@ -1,0 +1,11 @@
+- mulai
+- definisikan variabel teks sebagai nilai string
+- jadikan ubah tulisan teks menjadi kecil semua
+- definisikan variabel teksArray dengan nilai berupa konversi variable teks menjadi array
+- definisikan variabel length dengan nilai jumlah indeks variabel teksArray
+- definisikan variabel invers dengan teks indeks ke length
+- defenisikan lagi variabel invers dengan nilai invers sebelumnya di tambah dengan array teks yang indeks nya dikurang satu
+- lakukan perulangan sampai array teks indeks ke nol.
+- jika invers sama dengan teks, maka tampilkan output "Palindrom"
+- jika tidak, tampilkan invers
+- selesai
