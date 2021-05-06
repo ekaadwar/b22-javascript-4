@@ -1,7 +1,19 @@
 function divideAndSort(data, func1 = cekData, func2 = toArray) {
   isNumb = cekData(data);
   if (isNumb == true) {
-    console.log(toArray(data, 0));
+    let dataArray = toArray(data, 0);
+    let length = dataArray.length;
+    for (let i = 0; i < length; i++) {
+      dataArray[i] = toArray(dataArray[i], "");
+      lenDatArr = dataArray[i].length;
+      dataArray[i] = dataArray[i].sort();
+      dataArray[i] = dataArray[i].toString();
+      dataArray[i] = trimObject(dataArray[i], ",", lenDatArr);
+      console.log(dataArray[i]);
+    }
+    data = dataArray.toString();
+    data = trimObject(data, ",", length);
+    console.log(data);
   }
 }
 
@@ -14,13 +26,17 @@ function cekData(data) {
 }
 
 function toArray(data, separator) {
-  let str = data.toString;
-  return str.split(separator);
+  let dataStr = data.toString();
+  let dataArray = dataStr.split(separator);
+  return dataArray;
 }
 
-const numb = 100;
-// divideAndSort(numb);
+function trimObject(str, trim, looping) {
+  for (let i = 1; i < looping; i++) {
+    str = str.replace(trim, "");
+  }
+  return str;
+}
 
-// let numbStr = numb.toString(numb);
-let numbArray = numb.split(0);
-console.log(numb);
+const numb = 5956560159466056;
+divideAndSort(numb);
