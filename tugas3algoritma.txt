@@ -1,0 +1,11 @@
+- mulai
+- input data integer
+- cek data, jika tidak bertipe integer, maka kembalikan output "Data masukan harus integer"
+- jika bertipe integer, maka pecah nilai data menjadi array dengan angka 0 sebagai pemisah antar indeks
+- pecah tiap indeks array data menjadi array juga
+- urutkan indeks array di setiap indeks array data utama dari yang kecil hingga terbesar
+- ubah upah type data di setiap indeks data menjadi string
+- definisikan variable conData dengan nilai array data indeks pertama
+- lakukan looping untuk menggabungkan semua nilai indeks array data ke dalam variabel conData
+- tampilkan nilai dari variabel conData
+- selesai

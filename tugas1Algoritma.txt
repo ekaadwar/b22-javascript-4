@@ -1,6 +1,6 @@
 - mulai
 - definisikan variabel teks sebagai nilai string
-- jadikan ubah tulisan teks menjadi kecil semua
+-- jadikan ubah tulisan teks menjadi kecil semua
 - definisikan variabel teksArray dengan nilai berupa konversi variable teks menjadi array
 - definisikan variabel length dengan nilai jumlah indeks variabel teksArray
 - definisikan variabel invers dengan teks indeks ke length
