@@ -1,4 +1,4 @@
-function divideAndSort(data, func1 = cekData, func2 = toArray) {
+function divideAndSort(data) {
   isNumb = cekData(data);
   if (isNumb == true) {
     let dataArray = toArray(data, 0);
@@ -9,7 +9,6 @@ function divideAndSort(data, func1 = cekData, func2 = toArray) {
       dataArray[i] = dataArray[i].sort();
       dataArray[i] = dataArray[i].toString();
       dataArray[i] = trimObject(dataArray[i], ",", lenDatArr);
-      console.log(dataArray[i]);
     }
     data = dataArray.toString();
     data = trimObject(data, ",", length);
