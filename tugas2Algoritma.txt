@@ -1,0 +1,8 @@
+- mulai
+- definisikan variable teks dengan type string
+- definisikan variable teksArray yang nilainya adalah hasil konversi variabel teks menjadi array
+- definisikan variabel length dengan nilainya adalah jumlah indeks dari teksArray
+- inisialisasikan variabel inver dengan value dari variabel teksArrray indeks terakhir
+- lakukan perulangan untuk mengisi nilai invers dengan menggabungkan nilai invers sebelumnya dengan teksArray indeks terakhir -1, -2 sampai indek pertama
+- tampilkan data invers
+- selesai

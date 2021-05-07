@@ -1,5 +1,3 @@
-let teks = "Saya adalah seorang kapitan";
-
 function balikan(str) {
   let teksArray = str.split(" ");
 
@@ -13,5 +11,7 @@ function balikan(str) {
 
   console.log(invers);
 }
+
+let teks = "Saya adalah seorang kapitan";
 
 balikan(teks);

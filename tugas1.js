@@ -1,4 +1,4 @@
-let teks = "MalAm";
+let teks = "EkaFajhariAdwar";
 let teksArray = teks.split("");
 let length = teksArray.length;
 
